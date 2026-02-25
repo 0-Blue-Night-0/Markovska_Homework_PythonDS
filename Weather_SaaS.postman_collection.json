@@ -1,0 +1,125 @@
+{
+  "info": {
+    "_postman_id": "888a98c8-a4fb-4c24-bbb1-b620c8f7f9f0",
+    "name": "Weather_SaaS",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52364697",
+    "_collection_link": "https://go.postman.co/collection/52364697-888a98c8-a4fb-4c24-bbb1-b620c8f7f9f0?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Kyiv",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"token\": \"WEATHER\",\r\n  \"requester_name\": \"Markovska Taisia\",\r\n  \"location\": \"Kyiv,Ukraine\",\r\n  \"date\": \"2026-02-25\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://100.54.112.59:8000/content/api/v1/integration/generate",
+          "protocol": "http",
+          "host": [
+            "100",
+            "54",
+            "112",
+            "59"
+          ],
+          "port": "8000",
+          "path": [
+            "content",
+            "api",
+            "v1",
+            "integration",
+            "generate"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Toronto",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"token\": \"WEATHER\",\r\n  \"requester_name\": \"Markovska Taisia\",\r\n  \"location\": \"Toronto,Canada\",\r\n  \"date\": \"2026-01-20\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://100.54.112.59:8000/content/api/v1/integration/generate",
+          "protocol": "http",
+          "host": [
+            "100",
+            "54",
+            "112",
+            "59"
+          ],
+          "port": "8000",
+          "path": [
+            "content",
+            "api",
+            "v1",
+            "integration",
+            "generate"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Tokyo",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"token\": \"WEATHER\",\r\n  \"requester_name\": \"Markovska Taisia\",\r\n  \"location\": \"Tokyo,Japan\",\r\n  \"date\": \"2026-02-10\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://100.54.112.59:8000/content/api/v1/integration/generate",
+          "protocol": "http",
+          "host": [
+            "100",
+            "54",
+            "112",
+            "59"
+          ],
+          "port": "8000",
+          "path": [
+            "content",
+            "api",
+            "v1",
+            "integration",
+            "generate"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
